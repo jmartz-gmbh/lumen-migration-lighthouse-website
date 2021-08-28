@@ -1,11 +1,11 @@
 {
     "name": "jmartz-gmbh/lumen-migration-lighthouse-report",
-    "description": "Php Lumen News Migration",
+    "description": "Php Lumen Lighthouse Report Migration",
     "require": {
         "php": "^8.0",
         "illuminate/http": "^8.0",
         "illuminate/support": "^8.0",
-        "illuminate/database": "^8.4.0"
+        "illuminate/database": "^8.40.0"
     },
     "autoload": {
         "classmap": [
