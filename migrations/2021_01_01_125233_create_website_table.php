@@ -20,6 +20,7 @@ class CreateWebsiteTable extends Migration
             Schema::create($this->tablename, function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('name');
+                $table->integer('report_id');
                 $table->string('category');
                 $table->string('url')->unique();
                 $table->timestamps();
